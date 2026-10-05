@@ -1,7 +1,15 @@
 ---
-title: "ratpackR-docs"
+title: "ratpackR"
 ---
 
-This is a Quarto website.
+# Welcome to ratpackR! 
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Do you have a fishery you need an MSE for – well RatpackR is your friend. RatpackR, developed by Andre Punt, is an extension of RatpackMSE a C++ package developed by scientists at CSIRO and earlier by Gavin Fay. The latest version includes the ability to evaluate management strategies in a multispecies context, including multispecies management strategies that attempt to explicitly account for multispecies interactions. RatpackR is being used in Australia, China and the USA.
+
+This website hosts the documentation for the ratpackR software. It is still early days for the documentation, so thank you for your patience as we continue to build it.
+
+## The lore behind the ratpack name
+
+One of the foundational programs underlying the original RatpackMSE software was Sinatra, a management strategy evaluation for Blue-eye Trevalla. CSIRO scientists such as Sally Wayte, Gavin Faye, Rich Little, and Andre Punt (among others) expanded that program to include multispecies technical interactions. When confronted with what to call this new multispecies version, the answer became clear: with more species than just Blue-eye, Sinatra will need the rest of his bandmates to form the full Rat Pack! 
+
+In short: a fish named "Blue-eye" Trevalla inspired the name Sinatra (i.e. Frank Sinatra) for an MSE software program and adapting it to a multispecies context (i.e. more than one musician) inspired folks to name the new software after the Rat Pack musicians (e.g., Frank Sinatra, Dean Martin, Sammy Davis Jr., Peter Lawford, and Joey Bishop).

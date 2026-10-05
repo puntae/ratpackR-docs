@@ -1,0 +1,12 @@
+---
+title: "User Manual"
+---
+
+# Introduction
+## How to cite 
+
+# File Organization
+## Input Files
+## Output Files
+
+# Running ratpackR
