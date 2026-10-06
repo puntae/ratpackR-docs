@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ratpackR-docs",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "objectID": "user_manual.html#input-files",
+    "href": "user_manual.html#input-files",
+    "title": "User Manual",
+    "section": "Input Files",
+    "text": "Input Files"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
+    "objectID": "user_manual.html#output-files",
+    "href": "user_manual.html#output-files",
+    "title": "User Manual",
+    "section": "Output Files",
+    "text": "Output Files"
   },
   {
     "objectID": "github_and_rstudio_workflow_guide.html",
@@ -47,5 +47,19 @@
     "title": "GitHub and RStudio Workflow Guide",
     "section": "",
     "text": "Because Andre is working directly from the main branch rather than creating a separate feature branch, his workflow is simplified.\n\n\nAndre follows steps 1 through 4 in Part 1 to clone the repository, but skips Step 5. He stays on the default main branch.\n\n\n\nTo get the latest updates from the main branch, Andre only needs to open his RStudio project, go to the Git pane, and click the blue Pull arrow.\n\n\n\nAfter making edits and committing them, Andre can push his changes directly to the repository by clicking the green Push arrow in the Git pane. (If there are clashes with someone else’s recent push, he will resolve them using the steps in Part 3 before pushing)."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ratpackR",
+    "section": "",
+    "text": "Do you have a fishery you need an MSE for – well RatpackR is your friend. RatpackR, developed by Andre Punt, is an extension of RatpackMSE a C++ package developed by scientists at CSIRO and earlier by Gavin Fay. The latest version includes the ability to evaluate management strategies in a multispecies context, including multispecies management strategies that attempt to explicitly account for multispecies interactions. RatpackR is being used in Australia, China and the USA.\nThis website hosts the documentation for the ratpackR software. It is still early days for the documentation, so thank you for your patience as we continue to build it.\n\n\nOne of the foundational programs underlying the original RatpackMSE software was Sinatra, a management strategy evaluation for Blue-eye Trevalla. CSIRO scientists such as Sally Wayte, Gavin Faye, Rich Little, and Andre Punt (among others) expanded that program to include multispecies technical interactions. When confronted with what to call this new multispecies version, the answer became clear: with more species than just Blue-eye, Sinatra will need the rest of his bandmates to form the full Rat Pack!\nIn short: a fish named “Blue-eye” Trevalla inspired the name Sinatra (i.e. Frank Sinatra) for an MSE software program and adapting it to a multispecies context (i.e. more than one musician) inspired folks to name the new software after the Rat Pack musicians (e.g., Frank Sinatra, Dean Martin, Sammy Davis Jr., Peter Lawford, and Joey Bishop)."
+  },
+  {
+    "objectID": "index.html#the-lore-behind-the-ratpack-name",
+    "href": "index.html#the-lore-behind-the-ratpack-name",
+    "title": "ratpackR",
+    "section": "",
+    "text": "One of the foundational programs underlying the original RatpackMSE software was Sinatra, a management strategy evaluation for Blue-eye Trevalla. CSIRO scientists such as Sally Wayte, Gavin Faye, Rich Little, and Andre Punt (among others) expanded that program to include multispecies technical interactions. When confronted with what to call this new multispecies version, the answer became clear: with more species than just Blue-eye, Sinatra will need the rest of his bandmates to form the full Rat Pack!\nIn short: a fish named “Blue-eye” Trevalla inspired the name Sinatra (i.e. Frank Sinatra) for an MSE software program and adapting it to a multispecies context (i.e. more than one musician) inspired folks to name the new software after the Rat Pack musicians (e.g., Frank Sinatra, Dean Martin, Sammy Davis Jr., Peter Lawford, and Joey Bishop)."
   }
 ]

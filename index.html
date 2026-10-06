@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ratpackR-docs</title>
+<title>ratpackR – ratpackR-docs</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -100,8 +100,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="./user_manual.html"> 
+<span class="menu-text">User Manual</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -114,15 +114,24 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#welcome-to-ratpackr" id="toc-welcome-to-ratpackr" class="nav-link active" data-scroll-target="#welcome-to-ratpackr">Welcome to ratpackR!</a>
+  <ul class="collapse">
+  <li><a href="#the-lore-behind-the-ratpack-name" id="toc-the-lore-behind-the-ratpack-name" class="nav-link" data-scroll-target="#the-lore-behind-the-ratpack-name">The lore behind the ratpack name</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">ratpackR-docs</h1>
+<h1 class="title">ratpackR</h1>
 </div>
 
 
@@ -139,10 +148,18 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+<section id="welcome-to-ratpackr" class="level1">
+<h1>Welcome to ratpackR!</h1>
+<p>Do you have a fishery you need an MSE for – well RatpackR is your friend. RatpackR, developed by Andre Punt, is an extension of RatpackMSE a C++ package developed by scientists at CSIRO and earlier by Gavin Fay. The latest version includes the ability to evaluate management strategies in a multispecies context, including multispecies management strategies that attempt to explicitly account for multispecies interactions. RatpackR is being used in Australia, China and the USA.</p>
+<p>This website hosts the documentation for the ratpackR software. It is still early days for the documentation, so thank you for your patience as we continue to build it.</p>
+<section id="the-lore-behind-the-ratpack-name" class="level2">
+<h2 class="anchored" data-anchor-id="the-lore-behind-the-ratpack-name">The lore behind the ratpack name</h2>
+<p>One of the foundational programs underlying the original RatpackMSE software was Sinatra, a management strategy evaluation for Blue-eye Trevalla. CSIRO scientists such as Sally Wayte, Gavin Faye, Rich Little, and Andre Punt (among others) expanded that program to include multispecies technical interactions. When confronted with what to call this new multispecies version, the answer became clear: with more species than just Blue-eye, Sinatra will need the rest of his bandmates to form the full Rat Pack!</p>
+<p>In short: a fish named “Blue-eye” Trevalla inspired the name Sinatra (i.e.&nbsp;Frank Sinatra) for an MSE software program and adapting it to a multispecies context (i.e.&nbsp;more than one musician) inspired folks to name the new software after the Rat Pack musicians (e.g., Frank Sinatra, Dean Martin, Sammy Davis Jr., Peter Lawford, and Joey Bishop).</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -218,7 +235,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/puntae\.github\.io\/ratpackR-docs\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
